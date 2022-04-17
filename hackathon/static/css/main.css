@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Montserrat:wght@600&display=swap');
+* {
+    margin: 0em;
+    padding: 0em;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    margin: 0em;
+    padding: 0em;
+}
+header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 10%;
+    margin: 0em;
+    padding: 0em;
+}
+main {
+    background-color: #131313;
+    width: 100%;
+    height: 80%;
+}
+footer {
+    height: 10%;
+    width: 100%;
+    background-color: #fff;
+}
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', bold;
+    border: solid 2px #131313;
+    opacity: 50%;
+    position: relative;
+    top: 20%;
+    text-align: center;
+    font-size: 40px;
+}
+.search-form {
+    margin: 0 auto;
+    padding: 0px;
+    width: 1200px;
+}
+.search-form input{
+    background-color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: solid 2px rgb(63, 61, 61);
+    position: relative;
+    top: 200px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 40px;
+    width: 1000px;
+    height: 54px;
+}
+.search-form input:focus{
+    outline: none;
+}
+.search-form input::placeholder{
+    color:grey;
+    opacity: 30%;
+}
+.search-form button {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    top: 192px;
+    font-size:larger;
+    color: #000000;
+    width: 100px;
+    height: 57px;
+    background-color: #ffffff;
+}
+.contact {
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+    color:#000000;
+}
+.add-site h1 {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+.add-site {
+    margin: 0 auto;
+    padding: 0px;
+    width: 1200px;
+}
+.input_pole1{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 200px;
+    font-size: 32px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: solid 2px rgb(63, 61, 61);
+    width: 800px;
+    height: 50px;
+}
+.input_pole2{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 250px;
+    font-size: 32px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: solid 2px rgb(63, 61, 61);
+    width: 800px;
+    height: 50px;
+}
+.input_pole1::placeholder {
+    opacity: 70%;
+}
+.input_pole2::placeholder {
+    opacity: 70%;
+}
+.knopka1 {
+    position: relative;
+    top: 402px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    font-size:larger;
+    color: #000000;
+    width: 120px;
+    height: 57px;
+    background-color: #ffffff;
+}
+.about1{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    font-size:24px;
+    color: #000000;
+    position: relative;
+    top: 300px;
+    width: 800px;
+    height: 100px;
+}
+.about1::placeholder {
+    opacity: 70%;
+}
+.input_pole3{
+    left: 400px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: -50px;
+    font-size: 32px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: solid 2px rgb(63, 61, 61);
+    width: 800px;
+    height: 56px;
+}
+.site {
+    border: dashed 2px #ffffff;
+    padding: 20px;
+    background-color: #171717;
+}
+.block {
+    display: inline-flexbox;
+    text-decoration: none;
+    color:#ffffff;
+}
+a h3 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px;
+    color: #f5f5f5;
+    background-color:#4b4b4b;
+}
+a span{
+    color: #ffffff;
+}
+.search {
+    position: relative;
+    top: 200px;
+}
+.knopka {
+    position: relative;
+    left: 400px;
+    top: -53px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    font-size:x-large;
+    color: #000000;
+    width: 120px;
+    height: 58px;
+    background-color: #ffffff;
+}
+.input_pole3:focus{
+    outline: none;
+}
+.about1:focus{
+    outline: none;
+}
+.input_pole1:focus{
+    outline: none;
+}
+.input_pole2:focus{
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+a:visited{
+    color:#000000;
+}
+p {
+    color: #ffffff;
+    font-family: 'Inconsolata', monospace;
+}
+span {
+    color: #ffffff;
+    font-family: 'Inconsolata', monospace;
+}
+.addsitebutton {
+    top: 350px;
+    position: relative;
+    left: 980px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    font-size:x-large;
+    color: #000000;
+    width: 300px;
+    height: 60px;
+    background-color: #ffffff;
+}

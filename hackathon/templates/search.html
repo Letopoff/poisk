@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\static\css\main.css">
+    <title>Alkena</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Alkena</div>
+    </header>
+    <main>
+        <section>
+            <button class="addsitebutton"><a href="/add-site">Добавить сайт в базу</a></button>
+            <div class="search">
+                <form method="GET">
+                    <input class="input_pole3" type="text" name="q" placeholder="Поиск" value="{{ request.args.get('q' '') }}">
+                    <button class="knopka" type="submit" name="button">Поиск</button>
+                </form>
+                
+                {% for el in data %} <!-- Блок который забирает данные из базы данных, и показывает их пользователю-->
+                <a class="block" href="{{ el.url_site }}">
+                    <div class="site">
+                    <h3>{{ el.title }}</h3>
+                    <span>{{ el.url_site }}</span>
+                    <p>{{ el.about }}</p>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\static\css\main.css">
+    <title>Alkena</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Alkena</div>
+    </header>
+    <main>
+        <section>
+            <button class="addsitebutton"><a href="/add-site">Добавить сайт в базу</a></button>
+                <div class="search-form">
+                    <form method="GET">
+                        <input type="text" name="q" placeholder="Введите ваш запрос" value="{{ request.args.get('q' '') }}">
+                        <button type="submit">ПОИСК</button>
+                    </form>
+                </div>
+        </section>
+    </main>
+    <!--<footer>
+        <dir class="contact">Поисковая система</dir>
+        <dir class="contact">Петраченков Даниил</dir>
+    </footer>-->
+</body>
+</html>
